@@ -1,0 +1,113 @@
+{
+	"description":"Hola, soy desarrollador con experiencia en crear soluciones móviles, web y experiencias RA. Con especial interés en el arte y programación de videojuegos 2D.",
+	"experience":[
+		{
+			"name":"Independiente (Ene22 - Actualmente)",
+			"description":"para complementos de funcionalidad y distribución en tienda.",
+			"activities":"Proyectos web, aplicaciones móviles y RA "
+		},
+		{
+			"name":"Grupo Herdez (Jun20 - Ene22)",
+			"description":"de uso interno para difusión de ventas y promociones dentro de la empresa.",
+			"activities":"Desarrollo de apps y sistemas web "
+		},
+		{
+			"name":"Spray Studio (Oct18 - Jun20)",
+			"description":"con distribución interna y pública de uso informativo y comercial.",
+			"activities":"Proyectos web, aplicaciones móviles y RA "
+		},
+		{
+			"name":"Fundación Carlos Slim (Jul16 - Jul18)",
+			"description":"para alojamiento de contenido de aprendizaje en recursos interactivos.",
+			"activities":"Desarrollo backend de nueva plataforma "
+		}
+	],
+	"jobs":[
+		{
+			"name":"",
+			"title":"Programador independiente",
+			"time":"Enero 2022 - Actualmente",
+			"activities":[
+				"Implementación y administración de aplicaciones personalizadas",
+                "Desarrollo de aplicaciones con acceso a tienda",
+                "Reestructura de aplicaciones a sistemas más actualizados",
+                "Mantenimiento de plataforma web de uso administrativo",
+                "Comunicación entre sistemas mediante servicios de terceros",
+                "Desarrollo de sistemas en realidad aumenta de forma nativa y web"
+			]
+		},
+		{
+			"name":"Transformación digital Grupo Herdez",
+			"title":"Programador móvil",
+			"time":"Junio 2020 – Enero 2022",
+			"activities":[
+				"Levantamiento de necesidades para desarrollo de nueva aplicación",
+                "Propuesta de diseño UI en app y sistemas web",
+                "Distribución de aplicaciones con acceso interno",
+                "Comunicación de app con el sistema general del grupo",
+                "Desarrollo de aplicaciones móviles para la consulta visual de las ventas en marcas de retail",
+                "Optimización de plataformas web para la gestión de promociones, inventario, ventas, actividades de tiendas, etc",
+                "Programación de nuevas funcionalidades para app de escritorio en el punto de venta de las tiendas físicas"
+			]
+		},
+		{
+			"name":"Spray Studio",
+			"title":"Programador",
+			"time":"Octubre 2018 – Junio 2020",
+			"activities":[
+				"Mejoras en proyectos para sitios web desarrollados en distintos frameworks de php",
+                "Desarrollo de nuevas aplicaciones híbridas con acceso a tienda, así como de forma privada",
+                "Mejoras a aplicaciones existentes con nuevas funcionalidades",
+                "Desarrollo en aplicaciones con realidad aumentada para presentación de productos comerciales",
+                "Diseño de modelos para base de datos y mejoras a consultas complejas en proyectos web"
+			]
+		},
+		{
+			"name":"Fundación Carlos Slim",
+			"title":"Programador web",
+			"time":"Julio 2016 - Julio 2018",
+			"activities":[
+				"Desarrollo de nueva plataforma pruebat.org",
+                "Funcionalidad del sitio para alojamiento de contenido de aprendizaje y juegos interactivos",
+                "Desarrollo de panel de administración de recursos multimedia",
+                "Integración del funcionamiento de maquetas front end",
+                "Optimización de código para ahorro de recursos y tiempo",
+                "Desarrollo de integraciones entre diferentes sistemas mediante el uso de servicios rest",
+                "Reestructura del diseño de modelos para base de datos",
+                "Levantamiento de necesidades del cliente para documentar y desarrollar el sistema"
+			]
+		}
+	],
+	"projects":[
+		{
+			"name":"Maybelline NY - Web AR",
+			"image":"projects/maybelline.png",
+			"icon":"tryout_gray.svg"
+		},
+		{
+			"name":"Futbolito Bimbo - App",
+			"image":"projects/futbolito.png",
+			"icon":""
+		},
+		{
+			"name":"Urban Attack - Juego 2D",
+			"image":"projects/urban.png",
+			"icon":"game_dark.svg"
+		},
+		{
+			"name":"TuPlan - App",
+			"image":"projects/tuplan.png",
+			"icon":""
+		},
+		{
+			"name":"Sistema CRS - Plataforma web",
+			"image":"projects/boliviacrs.png",
+			"icon":""
+		},
+		{
+			"name":"PruébaT - Plataforma web",
+			"image":"projects/pruebat.png",
+			"icon":""
+		}
+	]
+}
