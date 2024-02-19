@@ -2,9 +2,9 @@
     <div class="pageFooter">
         <div class="left-jmp-0-2">
             <img class="footerLogo" src="{{ asset('/images/logo.png') }}" alt="Logo"/>
-            <div>Mi contacto 
+            <div>Contact 
                 <a >martinpacheco1192@gmail.com</a>
-                <br/>2023 jmpacheco
+                <br/>2024 jmpacheco
             </div>
         </div>
     </div>

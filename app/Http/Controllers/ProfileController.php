@@ -13,10 +13,9 @@ class ProfileController extends Controller
     }
 
     public function home(){
-
         $json = \File::get('json/profile.json');
         $data = json_decode($json, true);
 
-    	return view('home', $data);
+    	return view('home', ['profile' => $data]);
     }
 }

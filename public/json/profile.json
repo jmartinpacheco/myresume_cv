@@ -1,113 +1,238 @@
 {
-	"description":"Hola, soy desarrollador con experiencia en crear soluciones móviles, web y experiencias RA. Con especial interés en el arte y programación de videojuegos 2D.",
-	"experience":[
-		{
-			"name":"Independiente (Ene22 - Actualmente)",
-			"description":"para complementos de funcionalidad y distribución en tienda.",
-			"activities":"Proyectos web, aplicaciones móviles y RA "
+	"es":{
+		"description":"Hola, soy desarrollador con experiencia en crear soluciones móviles, web y experiencias RA. Con especial interés en el arte y programación de videojuegos 2D.",
+		"experience":[
+			{
+				"name":"Independiente (Ene22 - Actualmente)",
+				"description":"para complementos de funcionalidad y distribución en tienda.",
+				"activities":"Proyectos web, aplicaciones móviles y RA "
+			},
+			{
+				"name":"Grupo Herdez (Jun20 - Ene22)",
+				"description":"de uso interno para difusión de ventas y promociones dentro de la empresa.",
+				"activities":"Desarrollo de apps y sistemas web "
+			},
+			{
+				"name":"Spray Studio (Oct18 - Jun20)",
+				"description":"con distribución interna y pública de uso informativo y comercial.",
+				"activities":"Proyectos web, aplicaciones móviles y RA "
+			},
+			{
+				"name":"Fundación Carlos Slim (Jul16 - Jul18)",
+				"description":"para alojamiento de contenido de aprendizaje en recursos interactivos.",
+				"activities":"Desarrollo backend de nueva plataforma "
+			},
+			{
+				"name":"Independiente (Mar15 - Abr15)",
+				"description":"para el consurso El reto WW, donde se alcanzó el segundo lugar.",
+				"activities":"Desarrollo y diseño de videojuego NutriRun "
+			}
+		],
+		"jobs":[
+			{
+				"name":"",
+				"title":"Programador independiente",
+				"time":"Enero 2022 - Actualmente",
+				"activities":[
+					"Implementación y administración de aplicaciones personalizadas",
+	                "Desarrollo de aplicaciones con acceso a tienda",
+	                "Reestructura de aplicaciones a sistemas más actualizados",
+	                "Mantenimiento de plataforma web de uso administrativo",
+	                "Comunicación entre sistemas mediante servicios de terceros",
+	                "Desarrollo de sistemas en realidad aumentada de forma nativa y web"
+				]
+			},
+			{
+				"name":"Transformación digital Grupo Herdez",
+				"title":"Programador móvil",
+				"time":"Junio 2020 – Enero 2022",
+				"activities":[
+					"Levantamiento de necesidades para desarrollo de nueva aplicación",
+	                "Propuesta de diseño UI en app y sistemas web",
+	                "Distribución de aplicaciones con acceso interno",
+	                "Comunicación de app con el sistema general del grupo",
+	                "Desarrollo de aplicaciones móviles para la consulta visual de las ventas en marcas de retail",
+	                "Optimización de plataformas web para la gestión de promociones, inventario, ventas, actividades de tiendas, etc",
+	                "Programación de nuevas funcionalidades para app de escritorio en el punto de venta de las tiendas físicas"
+				]
+			},
+			{
+				"name":"Spray Studio",
+				"title":"Programador",
+				"time":"Octubre 2018 – Junio 2020",
+				"activities":[
+					"Mejoras en proyectos para sitios web desarrollados en distintos frameworks de php",
+	                "Desarrollo de nuevas aplicaciones híbridas con acceso a tienda, así como de forma privada",
+	                "Mejoras a aplicaciones existentes con nuevas funcionalidades",
+	                "Desarrollo en aplicaciones con realidad aumentada para presentación de productos comerciales",
+	                "Diseño de modelos para base de datos y mejoras a consultas complejas en proyectos web"
+				]
+			},
+			{
+				"name":"Fundación Carlos Slim",
+				"title":"Programador web",
+				"time":"Julio 2016 - Julio 2018",
+				"activities":[
+					"Desarrollo de nueva plataforma pruebat.org",
+	                "Funcionalidad del sitio para alojamiento de contenido de aprendizaje y juegos interactivos",
+	                "Desarrollo de panel de administración de recursos multimedia",
+	                "Integración del funcionamiento de maquetas front end",
+	                "Optimización de código para ahorro de recursos y tiempo",
+	                "Desarrollo de integraciones entre diferentes sistemas mediante el uso de servicios rest",
+	                "Reestructura del diseño de modelos para base de datos",
+	                "Levantamiento de necesidades del cliente para documentar y desarrollar el sistema"
+				]
+			}
+		],
+		"projects":[
+			{
+				"name":"Maybelline NY - Web AR",
+				"image":"projects/maybelline.png",
+				"icon":"tryout_gray.svg"
+			},
+			{
+				"name":"Futbolito Bimbo - App",
+				"image":"projects/futbolito.png",
+				"icon":""
+			},
+			{
+				"name":"Urban Attack - 2D Video game",
+				"image":"projects/urban.png",
+				"icon":"game_dark.svg"
+			},
+			{
+				"name":"TuPlan - App",
+				"image":"projects/tuplan.png",
+				"icon":""
+			},
+			{
+				"name":"Sistema CRS - Web platform",
+				"image":"projects/boliviacrs.png",
+				"icon":""
+			},
+			{
+				"name":"PruébaT - Web platform",
+				"image":"projects/pruebat.png",
+				"icon":""
+			}
+		]
 		},
-		{
-			"name":"Grupo Herdez (Jun20 - Ene22)",
-			"description":"de uso interno para difusión de ventas y promociones dentro de la empresa.",
-			"activities":"Desarrollo de apps y sistemas web "
-		},
-		{
-			"name":"Spray Studio (Oct18 - Jun20)",
-			"description":"con distribución interna y pública de uso informativo y comercial.",
-			"activities":"Proyectos web, aplicaciones móviles y RA "
-		},
-		{
-			"name":"Fundación Carlos Slim (Jul16 - Jul18)",
-			"description":"para alojamiento de contenido de aprendizaje en recursos interactivos.",
-			"activities":"Desarrollo backend de nueva plataforma "
+	"en":{
+		"description":"Hi, I am developer with experience in create mobile, web solutions and AR experiences. Special and particular interest in 2D game art and programming.",
+		"experience":[
+			{
+				"name":"Indie (Jan22 - To date)",
+				"description":"for improving functionality and distribution.",
+				"activities":"Web projects, mobile and AR applications "
+			},
+			{
+				"name":"Grupo Herdez (Jun20 - Ene22)",
+				"description":"of in-home use to sales diffusion and promotions inside company.",
+				"activities":"Development of apps and web system "
+			},
+			{
+				"name":"Spray Studio (Oct18 - Jun20)",
+				"description":"of informative and comertial use for in-store and private distribution.",
+				"activities":"Web projects, mobile and AR applications "
+			},
+			{
+				"name":"Fundación Carlos Slim (Jul16 - Jul18)",
+				"description":"for hosting learning content and interactive resources.",
+				"activities":"Development backend in new platform "
+			},
+			{
+				"name":"Indie (Mar15 - Apr15)",
+				"description":"for El reto WW contest, where we achieved the second place.",
+				"activities":"Development and design of NutriRun video game "
+			}
+		],
+		"jobs":[
+			{
+				"name":"",
+				"title":"Freelance developer",
+				"time":"January 2022 - To date",
+				"activities":[
+					"Need assessment for the implementation and management of custom applications",
+	                "Development of mobile apps for in-store and private distribution",
+	                "Restructuring of apps to more up-to-date systems",
+	                "Management of web platforms or administrative use",
+	                "Distribution of application with Augmented Reality for product diffusion",
+	                "Programming of applications and new functionalities of exiting systems"
+				]
+			},
+			{
+				"name":"Transformación digital Grupo Herdez",
+				"title":"Mobile and .NET developer",
+				"time":"June 2020 – January 2022",
+				"activities":[
+					"Survey of customer needs to develop of new app",
+	                "Proposal for UI design app and web system",
+	                "Development of app with in-home distribution",
+	                "I communicated the app with the general system of the group",
+	                "Development of apps for visual consultation of sales in retail brands",
+	                "Functionality of different web platforms for the management of promotions, inventory, sales, store activities, etc. of the group’s point of sale",
+	                "Programming of new functionalities for desktop app in the point of sale of physical stores"
+				]
+			},
+			{
+				"name":"Spray Studio",
+				"title":"Developer",
+				"time":"October 2018 – June 2020",
+				"activities":[
+					"I improved projects on distinct php frameworks",
+	                "Development of new hybrid apps for in-store and private distribution",
+	                "Programming of applications and new functionalities of exiting systems",
+	                "Development of Augmented Reality application for commercial product presentation",
+	                "Designing of database model and improving of complex querys on web projects"
+				]
+			},
+			{
+				"name":"Fundación Carlos Slim",
+				"title":"Web developer",
+				"time":"July 2016 - July 2018",
+				"activities":[
+					"I developed the new platform pruebat.org",
+					"Worked of the functionality of the site for hosting learning content and interactive resources",
+	                "Development of multimedia resources administration panel",
+	                "Integration of the functionality of frontend templates",
+	                "Optimization of code to save resources and time",
+	                "Development of services between different systems with api rest",
+	                "Redesigning of the database model",
+	                "Survey of customer needs to document and develop the system"
+				]
+			}
+		],
+		"projects":[
+			{
+				"name":"Maybelline NY - Web AR",
+				"image":"projects/maybelline.png",
+				"icon":"tryout_gray.svg"
+			},
+			{
+				"name":"Futbolito Bimbo - App",
+				"image":"projects/futbolito.png",
+				"icon":""
+			},
+			{
+				"name":"Urban Attack - 2D Game",
+				"image":"projects/urban.png",
+				"icon":"game_dark.svg"
+			},
+			{
+				"name":"TuPlan - App",
+				"image":"projects/tuplan.png",
+				"icon":""
+			},
+			{
+				"name":"Sistema CRS - Web platform",
+				"image":"projects/boliviacrs.png",
+				"icon":""
+			},
+			{
+				"name":"PruébaT - Web platform",
+				"image":"projects/pruebat.png",
+				"icon":""
+			}
+		]
 		}
-	],
-	"jobs":[
-		{
-			"name":"",
-			"title":"Programador independiente",
-			"time":"Enero 2022 - Actualmente",
-			"activities":[
-				"Implementación y administración de aplicaciones personalizadas",
-                "Desarrollo de aplicaciones con acceso a tienda",
-                "Reestructura de aplicaciones a sistemas más actualizados",
-                "Mantenimiento de plataforma web de uso administrativo",
-                "Comunicación entre sistemas mediante servicios de terceros",
-                "Desarrollo de sistemas en realidad aumenta de forma nativa y web"
-			]
-		},
-		{
-			"name":"Transformación digital Grupo Herdez",
-			"title":"Programador móvil",
-			"time":"Junio 2020 – Enero 2022",
-			"activities":[
-				"Levantamiento de necesidades para desarrollo de nueva aplicación",
-                "Propuesta de diseño UI en app y sistemas web",
-                "Distribución de aplicaciones con acceso interno",
-                "Comunicación de app con el sistema general del grupo",
-                "Desarrollo de aplicaciones móviles para la consulta visual de las ventas en marcas de retail",
-                "Optimización de plataformas web para la gestión de promociones, inventario, ventas, actividades de tiendas, etc",
-                "Programación de nuevas funcionalidades para app de escritorio en el punto de venta de las tiendas físicas"
-			]
-		},
-		{
-			"name":"Spray Studio",
-			"title":"Programador",
-			"time":"Octubre 2018 – Junio 2020",
-			"activities":[
-				"Mejoras en proyectos para sitios web desarrollados en distintos frameworks de php",
-                "Desarrollo de nuevas aplicaciones híbridas con acceso a tienda, así como de forma privada",
-                "Mejoras a aplicaciones existentes con nuevas funcionalidades",
-                "Desarrollo en aplicaciones con realidad aumentada para presentación de productos comerciales",
-                "Diseño de modelos para base de datos y mejoras a consultas complejas en proyectos web"
-			]
-		},
-		{
-			"name":"Fundación Carlos Slim",
-			"title":"Programador web",
-			"time":"Julio 2016 - Julio 2018",
-			"activities":[
-				"Desarrollo de nueva plataforma pruebat.org",
-                "Funcionalidad del sitio para alojamiento de contenido de aprendizaje y juegos interactivos",
-                "Desarrollo de panel de administración de recursos multimedia",
-                "Integración del funcionamiento de maquetas front end",
-                "Optimización de código para ahorro de recursos y tiempo",
-                "Desarrollo de integraciones entre diferentes sistemas mediante el uso de servicios rest",
-                "Reestructura del diseño de modelos para base de datos",
-                "Levantamiento de necesidades del cliente para documentar y desarrollar el sistema"
-			]
-		}
-	],
-	"projects":[
-		{
-			"name":"Maybelline NY - Web AR",
-			"image":"projects/maybelline.png",
-			"icon":"tryout_gray.svg"
-		},
-		{
-			"name":"Futbolito Bimbo - App",
-			"image":"projects/futbolito.png",
-			"icon":""
-		},
-		{
-			"name":"Urban Attack - Juego 2D",
-			"image":"projects/urban.png",
-			"icon":"game_dark.svg"
-		},
-		{
-			"name":"TuPlan - App",
-			"image":"projects/tuplan.png",
-			"icon":""
-		},
-		{
-			"name":"Sistema CRS - Plataforma web",
-			"image":"projects/boliviacrs.png",
-			"icon":""
-		},
-		{
-			"name":"PruébaT - Plataforma web",
-			"image":"projects/pruebat.png",
-			"icon":""
-		}
-	]
 }

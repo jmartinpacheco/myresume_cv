@@ -22,30 +22,44 @@
 	                        <a href="https://jmpacheco.itch.io/" target="_blank" rel="noopener noreferrer" >jmpacheco.itch.io</a>
 	                    </span>
 	                </div>
-	                <p class="bio"> {{ $description }} </p>
+	                <p class="bio"> {{ $profile['es']['description'] }} </p>
 	                <p class="linkOutsView">
 	                    <a href="mailto:martinpacheco1192@gmail.com" class="likeLink mailTo-0-2-23"><i aria-hidden="true" class="mail icon"></i>
 	                    </a>
 	                    <!--<span class="separator"></span>
 	                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"><i aria-hidden="true" class="twitter square icon socialIcon"></i>
-	                    </a>
-	                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/" ><i aria-hidden="true" class="linkedin icon socialIcon"></i>
 	                    </a>-->
+	                    <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/juan-martin-pacheco" ><i aria-hidden="true" class="linkedin icon socialIcon"></i>
+	                    </a>
 	                </p>
 	            </div>
 	        </div>
 	        <section class="tabRow">
-	            <a class="tab-jmp activeTab" data-section="overview">Overview</a>
-	            <a class="tab-jmp" data-section="jobs">Detalle</a>
-	            <a class="tab-jmp" data-section="projects">Proyectos</a>
+	            <a id="overview" class="tab-jmp activeTab" data-section="overview">Overview</a>
+	            <a id="detail" class="tab-jmp" data-section="jobs">Detalle</a>
+	            <a id="project" class="tab-jmp" data-section="projects">Proyectos</a>
 	        </section>
 
 	        <section class="module section centered">
 	            <div class="overview">
-	                <div class="featuredContentBlock">
-	                    <p>Cada proyecto refleja pasión y creatividad.</p>
+	            	
+	            	<p class="ftDescription es">Cada proyecto refleja pasión y creatividad.</p>
+	            	<p class="ftDescription en d-none">Each project shows passion and creativity.</p>
 
-	                    @foreach ($experience as $job)
+	                <div class="featuredContentBlock es">
+	                    
+	                    @foreach ($profile['es']['experience'] as $job)
+		                    <div class="containerName" style="margin-bottom: 6px;">
+		                        <label><strong>{{ $job['activities'] }}</strong>{{ $job['description'] }}</label>
+		                        <p>{{ $job['name'] }}</p>
+		                    </div>
+	                    @endforeach
+
+	                </div>
+
+	                <div class="featuredContentBlock en d-none">
+	                    
+	                    @foreach ($profile['en']['experience'] as $job)
 		                    <div class="containerName" style="margin-bottom: 6px;">
 		                        <label><strong>{{ $job['activities'] }}</strong>{{ $job['description'] }}</label>
 		                        <p>{{ $job['name'] }}</p>
@@ -58,10 +72,29 @@
 
 	        <section class="module section centered d-none">
 	            <div class="jobs">
-	                <div class="featuredContentBlock">
-	                    <p>Experiencia de las actividades desarrolladas.</p>
 
-	                    @foreach ($jobs as $job)
+	            	<p class="ftDescription es">Experiencia de las actividades desarrolladas.</p>
+	            	<p class="ftDescription en d-none">Experience in developed activities.</p>
+
+	                <div class="featuredContentBlock es">
+
+	                    @foreach ($profile['es']['jobs'] as $job)
+	                    	<h2 class="title">{{ $job['title'] }}</h2>
+		                    <div class="containerName">
+		                        <label>{{ $job['name'] }}</label>
+		                        <p>{{ $job['time'] }}</p>
+		                    </div>
+		                    <ul>
+		                    	@foreach ($job['activities'] as $activity)
+		                    		<li>{{ $activity }}</li>
+		                    	@endforeach
+		                    </ul>
+	                    @endforeach
+
+	                </div>
+	                <div class="featuredContentBlock en d-none">
+
+	                    @foreach ($profile['en']['jobs'] as $job)
 	                    	<h2 class="title">{{ $job['title'] }}</h2>
 		                    <div class="containerName">
 		                        <label>{{ $job['name'] }}</label>
@@ -79,10 +112,10 @@
 	        </section>
 
 	        <section class="module section centered d-none">
-	            <div class="projects sectionProfile tabbedLibraryView">
+	            <div class="projects tabbedLibraryView">
 	                <div class="libraryGrid ">
 
-	                	@foreach ($projects as $app)
+	                	@foreach ($profile['es']['projects'] as $app)
 		                    <div class="projectCard">
 		                        <div class="card-jmp">
 		                            <a >
@@ -119,7 +152,10 @@
 
 <script type="text/javascript">
     jQuery(document).ready(toggle_theme);
+    jQuery(document).ready(toggle_language);
     jQuery(document).ready(initial_profile);
+
+    var profile = "{{ json_encode($profile) }}";
 </script>
 
 @include('templates.end')

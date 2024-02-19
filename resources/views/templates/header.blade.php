@@ -13,7 +13,10 @@
                     
                 </div>
                 <div class="item-jmp-0-3">
-                   
+                   <button id="language-toggle" class="btnTheme" type="button">
+                        <span id="language-es" class="">EN</span>
+                        <span id="language-en" class=" d-none">ES</span>
+                   </button>
                 </div>
                 <div class="item-jmp-0-3">
                     <button id="theme-toggle" class="btnTheme" type="button">
